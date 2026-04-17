@@ -15,30 +15,30 @@
     .cabecera strong {
       font-size: 40px;
     }
+
     .contenedor {
       background-color: #F5EEF5;
       padding: 40px 20px;
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-    
     }
 
     .tit1{
       padding: 40px 20px;
-      font-size: 50px;
+      font-size: 60px;
     }
 
     .tit2{
       color: #746c6c;
       padding: 40px 20px;
-      font-size: 60px;
+      font-size: 80px;
     }
 
     .tit3{
       background-color: #F5EEF5;
       padding: 40px 20px;
-      font-size: 45px;
+      font-size: 55px;
     }
     .textos {
       width: 50%;
@@ -47,13 +47,13 @@
 
     .imagenes{
       width: 50%;
-     
     }
 
   img{
-
-    width: 75%;
+    width: 100%;
+    padding: 20px;
   }
+
     .piecontenedor {
       background-color: #000000;
       padding: 30px 20px;
@@ -61,8 +61,18 @@
       display: flex;
       flex-wrap: wrap;
       font-size: 30px;
+      width: 100%;
+    }
+
+    .titpie {
+      display: block;
+        width: 100%;
+        padding: 20px;
     }
 
     .pie {
       flex: 1;
+      flex-wrap: wrap;  
+      padding: 30px;
     }
+
