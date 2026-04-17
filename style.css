@@ -15,7 +15,15 @@
     .cabecera strong {
       font-size: 40px;
     }
-
+    .cont1 {
+      background-color: #F5EEF5;
+    }
+    .cont2 {
+      background-color: #faf5f3;
+    }
+    .cont3 {
+      background-color: #f2f9f8;
+    }
     .contenedor {
       background-color: #F5EEF5;
       padding: 40px 20px;
