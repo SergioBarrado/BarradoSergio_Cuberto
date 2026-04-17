@@ -84,3 +84,10 @@
       padding: 30px;
     }
 
+@media (max-width: 844px) {
+  .textos, .imagenes {
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+  }
+}
