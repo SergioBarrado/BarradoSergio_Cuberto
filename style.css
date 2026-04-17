@@ -84,7 +84,7 @@
       padding: 30px;
     }
 
-@media (max-width: 844px) {
+@media (max-width: 796px) {
   .textos, .imagenes {
     width: 100%;
     align-items: center;
