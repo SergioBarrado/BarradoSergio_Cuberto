@@ -1,59 +1,59 @@
  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+    .cabecera {
+      width: 100%;
+      padding: 20px;
     }
 
-    .seccion1 {
+     .cabecera h1  {
+      color: #175f5c;
+      font-size: 70px;
+    }
+
+    .cabecera strong {
+      font-size: 30px;
+    }
+    .contenedor {
       background-color: #F5EEF5;
       padding: 40px 20px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     
     }
-    .seccion1 h1{
+
+    .tit1{
+      padding: 40px 20px;
+      font-size: 50px;
+    }
+
+    .tit2{
+      color: #746c6c;
+      padding: 40px 20px;
+      font-size: 60px;
+    }
+
+    .tit3{
       background-color: #F5EEF5;
       padding: 40px 20px;
-      font-size: 40px;
-      color: rgb(40, 143, 143);
-      display: left;
+      font-size: 35px;
     }
-
-   
-    .seccion2 {
-      background-color: #FAFAF3;
-      padding: 40px 20px;
-      display: flex;
-      gap: 20px;
-    }
-
- 
-    .seccion3 {
-      background-color: #F2F9F8;
-      padding: 40px 20px;
-      display: flex;
-      gap: 20px;
-    }
-
-
-    .seccion4 {
-      background-color: #ffffff;
-      padding: 40px 20px;
-      display: flex;
-      gap: 20px;
-      color: white;
-    }
-
-    .columna {
-      flex: 1;
-      padding: 20px;
+    .textos {
+      width: 50%;
+    
     }
 
     .imagenes{
       width: 50%;
-      height: auto;
+     
     }
 
-  
+  img{
+
+    width: 75%;
+  }
     .piecontenedor {
       background-color: #000000;
       padding: 30px 20px;
